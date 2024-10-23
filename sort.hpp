@@ -1,5 +1,5 @@
-#ifndef VE281P1_SORT_HPP
-#define VE281P1_SORT_HPP
+#ifndef SORT_HPP
+#define SORT_HPP
 
 #include <vector>
 #include <stdlib.h>
@@ -175,4 +175,4 @@ void quick_sort_inplace(std::vector<T> &vector, Compare comp = Compare()) {
     quick_sort_helper(vector, 0, int(vector.size()) - 1, comp);
 }
 
-#endif //VE281P1_SORT_HPP
+#endif //SORT_HPP
